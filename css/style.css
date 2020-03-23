@@ -2,7 +2,7 @@ div table tr td {
   border-radius: 20%;
   border: 2px black solid;
   margin: 5px;
-  background-color: white;
+  background-color: red;
   width: 20px;
   height: 20px;
   font-size: 10px;
@@ -10,6 +10,10 @@ div table tr td {
   /* padding: 20px; */
 }
 
+.table-box {
+  border: 1px tomato solid;
+  background-color: white;
+}
 /*--------------green-----------------------*/
 tr:nth-child(4) td:nth-child(3) {
   background-color: rgb(13, 195, 98);
@@ -71,17 +75,16 @@ tr:nth-child(7) :nth-child(7) {
   background-color: rgb(13, 195, 98);
 }
 
-/*-----------------blue------------------------*/
-table:nth-child(1) :first-child {
-  background-color: blue;
-}
-
 /*------------------brown------------------------*/
 td:nth-child(2) {
   background-color: brown;
 }
 
 /*--------------row 1 case 1--------------------*/
+tr:nth-child(1) td:nth-child(1) {
+  background-color: yellow;
+}
+
 tr:nth-child(2) td:nth-child(15) {
   background-color: yellow;
 }
@@ -148,6 +151,10 @@ tr:nth-child(7) :nth-child(3) {
 }
 
 /*----------------salmon--------------------------*/
+tr:nth-child(2) td:nth-child(13) {
+  background-color: salmon;
+}
+
 tr:nth-child(5) td:nth-child(16) {
   background-color: salmon;
 }
@@ -170,6 +177,16 @@ tr:nth-child(5) td:nth-child(15) {
 
 tr:nth-child(4) td:nth-child(14) {
   background-color: salmon;
+}
+
+/*-----------------blue------------------------*/
+
+td:nth-child(1) {
+  background-color: blue;
+}
+
+tr:nth-child(7) td:nth-child(17) {
+  background-color: blue;
 }
 
 /*----------------light pink--------------------------*/
@@ -201,27 +218,324 @@ tr:nth-child(6) td:nth-child(15) {
   background-color: pink;
 }
 
-/*------------------transparent----------------------*/
+/*------------------transparent-row-1--------------------*/
+
+tr:nth-child(1) td:nth-child(2) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(1) td:nth-child(3) {
+  background-color: transparent;
+  border: transparent;
+}
 
 tr:nth-child(1) td:nth-child(4) {
-  background-color: white;
+  background-color: transparent;
+  border: transparent;
 }
+
+tr:nth-child(1) td:nth-child(5) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(1) td:nth-child(6) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(1) td:nth-child(7) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(1) td:nth-child(8) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(1) td:nth-child(9) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(1) td:nth-child(10) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(1) td:nth-child(11) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(1) td:nth-child(12) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(1) td:nth-child(13) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(1) td:nth-child(14) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(1) td:nth-child(15) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(1) td:nth-child(16) {
+  background-color: transparent;
+  border: transparent;
+}
+tr:nth-child(1) td:nth-child(17) {
+  background-color: transparent;
+  border: transparent;
+}
+/*------------------transparent-row-2--------------------*/
+
+tr:nth-child(2) td:nth-child(3) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(2) td:nth-child(4) {
+  background-color: transparent;
+  border: transparent;
+}
+tr:nth-child(2) td:nth-child(5) {
+  background-color: transparent;
+  border: transparent;
+}
+tr:nth-child(2) td:nth-child(6) {
+  background-color: transparent;
+  border: transparent;
+}
+tr:nth-child(2) td:nth-child(7) {
+  background-color: transparent;
+  border: transparent;
+}
+tr:nth-child(2) td:nth-child(8) {
+  background-color: transparent;
+  border: transparent;
+}
+tr:nth-child(2) td:nth-child(9) {
+  background-color: transparent;
+  border: transparent;
+}
+tr:nth-child(2) td:nth-child(10) {
+  background-color: transparent;
+  border: transparent;
+}
+tr:nth-child(2) td:nth-child(11) {
+  background-color: transparent;
+  border: transparent;
+}
+tr:nth-child(2) td:nth-child(12) {
+  background-color: transparent;
+  border: transparent;
+}
+
+/*------------------transparent-row-3--------------------*/
+
+tr:nth-child(2) td:nth-child(3) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(2) td:nth-child(4) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(2) td:nth-child(5) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(2) td:nth-child(6) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(2) td:nth-child(7) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(2) td:nth-child(8) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(2) td:nth-child(9) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(2) td:nth-child(10) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(2) td:nth-child(11) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(2) td:nth-child(12) {
+  background-color: transparent;
+  border: transparent;
+}
+
+/*------------------transparent-row-3--------------------*/
+
+tr:nth-child(2) td:nth-child(3) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(2) td:nth-child(4) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(2) td:nth-child(5) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(2) td:nth-child(6) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(2) td:nth-child(7) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(2) td:nth-child(8) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(2) td:nth-child(9) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(2) td:nth-child(10) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(2) td:nth-child(11) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(2) td:nth-child(12) {
+  background-color: transparent;
+  border: transparent;
+}
+
+/*------------------transparent-row-4--------------------*/
+
+tr:nth-child(3) td:nth-child(3) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(3) td:nth-child(4) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(3) td:nth-child(5) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(3) td:nth-child(6) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(3) td:nth-child(7) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(3) td:nth-child(8) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(3) td:nth-child(9) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(3) td:nth-child(10) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(3) td:nth-child(11) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(3) td:nth-child(12) {
+  background-color: transparent;
+  border: transparent;
+}
+
+/*------------------transparent-row 8--------------------*/
 
 tr:nth-child(8) td:nth-child(1) {
-  background-color: white;
+  background-color: transparent;
+  border: transparent;
 }
+
+tr:nth-child(8) td:nth-child(16) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(8) td:nth-child(17) {
+  background-color: transparent;
+  border: transparent;
+}
+
+tr:nth-child(8) td:nth-child(18) {
+  background-color: transparent;
+  border: transparent;
+}
+
+/*------------------transparent-row 9--------------------*/
 
 tr:nth-child(9) td:nth-child(1) {
-  background-color: white;
+  background-color: transparent;
+  border: transparent;
 }
 
-tr:nth-child(9) td:last-child {
-  background-color: white;
+tr:nth-child(9) td:nth-child(16) {
+  background-color: transparent;
+  border: transparent;
 }
-
-tr:nth-child(8) td:last-child {
-  background-color: white;
+tr:nth-child(9) td:nth-child(17) {
+  background-color: transparent;
+  border: transparent;
 }
-tr:nth-child(2) {
-  background-color: white;
+tr:nth-child(9) td:nth-child(18) {
+  background-color: transparent;
+  border: transparent;
 }
